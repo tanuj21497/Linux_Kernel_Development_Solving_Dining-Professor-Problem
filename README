@@ -1,0 +1,27 @@
+1a-
+we have to use Strict ordering of resource requests, I used waiter solution to prevent my code from deadlock
+waiter solution means: https://www.stolaf.edu/people/rab/pdc/text/dpsolns.htm
+i implemented similar solution to get through deadlock
+
+1b-
+we used semaphores to prevent the deadlock, i just changed the way of last philosher 
+taking forks(first use right then left)
+
+
+2a-
+we have to use Strict ordering of resource requests, I used waiter solution to >
+waiter solution means: https://www.stolaf.edu/people/rab/pdc/text/dpsolns.htm
+i implemented similar solution to get through deadlock
+and similarly provided ordering for bowl
+
+2b-
+we used semaphores to prevent the deadlock, i just changed the way of last phil>
+taking forks(first use right then left)
+As bowl are 2 and also 2 philosphers if aqcquired 2 forks each then maximum philosphe
+r who can eat are max 2, so required bowls are exactly equals to 2 philosphers
+so we give them one bowl whenever they require it
+
+ 
+ 
+
+
